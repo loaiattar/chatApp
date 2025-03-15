@@ -1,0 +1,108 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Light Mode */
+body.light-mode {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #333;
+  color: #f9f9f9;
+}
+
+/* Button Styling */
+.btn {
+  margin-bottom: 50px;
+  padding: 10px;
+  background-color: #000;
+  color: #f9f9f9;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #222;
+}
+
+h1 {
+  text-align: center;
+  color: #b61729;
+}
+
+.input-container {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: inherit;
+  color: inherit;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+textarea {
+  height: 80px;
+  resize: vertical;
+}
+
+button {
+  background-color: #4CAF50;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#chat-box {
+  margin-top: 20px;
+  border: 1px solid #ddddddaa;
+  border-radius: 4px;
+  padding: 10px;
+  height: 300px;
+  overflow-y: auto;
+  background-color: #f9f9f9db;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode #chat-box {
+  background-color: #444;
+  border-color: #555;
+}
+
+.message {
+  padding: 8px;
+  margin-bottom: 8px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .message {
+  background-color: #373333;
+  color: #f9f9f9;
+}

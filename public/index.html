@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Chat online</title>
+</head>
+<body>
+  <button class="btn">Dark Mood</button>
+  <h1>Chat online</h1>
+  <div class="chat-container">
+    <div class="input-container">
+      <label for="usernameInput">Nom</label>
+      <input type="text" id="usernameInput" placeholder="Enter your name" />
+    </div>
+    <div class="input-container">
+      <label for="messageInput">Message</label>
+      <textarea id="messageInput" placeholder="Type your message"></textarea>
+    </div>
+    <button id="sendButton">Send</button>
+    
+    <!-- where messages will appear -->
+    <div id="chat-box"></div>
+  </div>
+  
+  <!-- load Socket.IO client -->
+  <script src="/socket.io/socket.io.js"></script>
+  <!-- custom JS -->
+  <script src="index.js"></script>
+</body>
+</html>
