@@ -31,7 +31,7 @@ A real-time chat application built with **Node.js**, **Express**, and **Socket.I
    node index.js
 
 ## 🚀 Project Structure:
-
+```
 chatApp/
 │
 ├── public/               # Static frontend assets
@@ -42,15 +42,17 @@ chatApp/
 ├── index.js              # Express + Socket.IO server logic
 ├── package.json          # Project metadata and dependencies
 └── README.md             # You're here!
+```
 
 ## ⚙️ Socket Events
+````
 
 Event	         Emitted By	        Description
 join	         Client	            User joins with a username
 chatMessage 	 Client	            Sends message to server
 message 	     Server	           Broadcasts message to all clients
 disconnect	  Socket.IO	         Detects when a user leaves
-
+```
 ## ⚙️ Socket Events
 
 ** Event	Emitted By	Description
@@ -58,6 +60,8 @@ disconnect	  Socket.IO	         Detects when a user leaves
 ** chatMessage	Client	Sends message to server
 ** message	Server	Broadcasts message to all clients
 ** disconnect	Socket.IO	Detects when a user leaves
+
+
 ##👤 Author
 
 Loai Attar
