@@ -45,7 +45,7 @@ chatApp/
 ```
 
 ## ⚙️ Socket Events
-````
+```
 
 Event	         Emitted By	        Description
 join	         Client	            User joins with a username
@@ -53,19 +53,10 @@ chatMessage 	 Client	            Sends message to server
 message 	     Server	           Broadcasts message to all clients
 disconnect	  Socket.IO	         Detects when a user leaves
 ```
-## ⚙️ Socket Events
-
-** Event	Emitted By	Description
-** join	Client	User joins with a username
-** chatMessage	Client	Sends message to server
-** message	Server	Broadcasts message to all clients
-** disconnect	Socket.IO	Detects when a user leaves
-
-
-##👤 Author
+#### 👤 Author
 
 Loai Attar
 🔗 GitHub
 ✉️ Feel free to reach out with questions or ideas!
 
-## Built with ❤️ for learning, experimenting, and having fun!
+###### Built with ❤️ for learning, experimenting, and having fun!
